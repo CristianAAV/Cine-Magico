@@ -1,0 +1,2 @@
+# Cine-Magico
+Proyecto Frontend
