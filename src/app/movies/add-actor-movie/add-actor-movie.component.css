@@ -1,0 +1,81 @@
+
+.form-title{
+    font-family: 'Halant', serif;
+    color: #004724;
+    font-weight: bold;
+}
+
+.form-group{
+    /* max-height: 30vh;
+    height: 25vh; */
+font-family: 'Halant', serif;
+color: #004724;
+font-weight: bold;
+}
+
+
+.title{
+    font-family: 'Halant', serif;
+    color: #004724;
+    font-weight: bold;
+}
+
+.outter-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FBEBCE;
+}
+.custom-button-primary{
+    font-weight: 400;
+    color: #FBEBCE;
+    border-color: #004724;
+    background-color: #004724;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    vertical-align: middle;
+}
+.custom-button-primary:hover{ 
+    background-color: #FBEBCE;
+    color: #004724;
+    cursor: pointer;
+}
+.custom-button-primary:active{
+    background-color: #FBEBCE;
+    color: #004724;
+}
+
+.custom-button-danger{
+    font-weight: 400;
+    color: #FBEBCE;
+    border-color: #cf1c2e;
+    background-color: #cf1c2e;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    vertical-align: middle;
+}
+.custom-button-danger:hover{ 
+    background-color: #FBEBCE;
+    color: #cf1c2e;
+    cursor: pointer;
+}
+.custom-button-danger:active{
+    background-color: #FBEBCE;
+    color: #cf1c2e;
+}
+
+
+.breadcrumb-detalle{
+    margin-left: 1.5rem;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #004724;
+}

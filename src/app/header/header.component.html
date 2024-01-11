@@ -1,0 +1,65 @@
+<!-- FILEPATH: /E:/Cursos2023/angularproyectMaestria/frontendProyecto/MISW4104_202315_E09/src/app/header/header.component.html -->
+
+<nav class="navbar navbar-expand-sm navbar-light header-bar">
+  <a class="navbar-brand" routerLink="">
+    <img src="/assets/icon/TICONO_GREEN.png" width="30" height="30" alt="icono-cine-magico">
+    Cine Mágico
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+    
+    (click)="toggleNavbar()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-between header-style" id="navbarNav" [ngClass]="{'show': navbarOpen}">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a i18n class="nav-link dropdown-toggle"
+        href="#"        
+        id="navbarDropdown"        
+        role="button"        
+        data-bs-toggle="dropdown"        
+        aria-expanded="false"        
+        >Movies</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a i18n class="dropdown-item" routerLink="/movies/list">List</a></li>          
+          <li><a i18n class="dropdown-item" routerLink="/movies/create">Create</a></li>          
+          <li><a i18n class="dropdown-item" routerLink="/movies/associate">Associate actor</a></li>         
+        </ul>
+
+        <li class="nav-item dropdown">
+          <a i18n class="nav-link dropdown-toggle"
+          href="#"        
+          id="navbarDropdown"        
+          role="button"        
+          data-bs-toggle="dropdown"        
+          aria-expanded="false"        
+          >Actors</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a i18n class="dropdown-item" routerLink="/actors/list">List</a></li>          
+            <li><a i18n class="dropdown-item" routerLink="/actors/create">Create</a></li> 
+            <li><a i18n class="dropdown-item" routerLink="/actors/associate">Associate</a></li>          
+          </ul>
+
+      <li class="nav-item dropdown">
+        <a i18n class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false">Directors</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a i18n class="dropdown-item" routerLink="/directors/list">List</a></li>
+          <li><a i18n class="dropdown-item" routerLink="/directors/create">Create</a></li>
+
+        </ul>
+      </li>
+
+      
+      <li class="nav-item">
+        <a i18n class="nav-link" routerLink="/reviews/create">Reviews</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>

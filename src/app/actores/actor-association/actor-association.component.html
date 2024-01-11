@@ -1,0 +1,51 @@
+    <div class="container-fluid px-4 px-lg-5 h-100 pt-2 pb-2 outter-container">
+      <nav aria-label="breadcrumb" class="breadcrumb-detalle">
+        <ol class="breadcrumb">
+          <li i18n class="breadcrumb-item"><a routerLink="">Home</a></li>
+          <li i18n class="breadcrumb-item"><a routerLink="/actors/list">Actors</a></li>
+          <li i18n class="breadcrumb-item active" aria-current="Associate">Associate</li>
+        </ol>
+      </nav>
+      <div class="col-12">
+        <h2 i18n class="font-weight-bold text-center title">Associate a movie to an actor</h2>
+      </div>  
+    
+      <form 
+      [formGroup]="addmovieactorForm" 
+      (ngSubmit)="!addmovieactorForm.invalid && addActorMovie(addmovieactorForm.value)">
+    
+        <!--actor-->
+        <div class="form-group mx-sm-3 mb-2">
+          <label i18n for="actorid"class="form-title-actor">Select an Actor</label>
+          <select class="form-control" id="actorid" formControlName="actorid">
+            <option *ngFor="let actor of actors" [value]="actor.id">{{actor.name}}</option>
+          </select>
+        </div>
+
+        <!--Movie-->
+        <div class="form-group mx-sm-3 mb-2">
+                  <label i18n for="movieid" class="form-title-movie">Select a Movie</label>
+               <select class="form-control" id="movieid" formControlName="movieid">
+             <option *ngFor="let movie of movies" [value]="movie.id">{{movie.title}}</option>
+          </select>
+        </div>
+    
+        <button
+          i18n
+          type="accept"
+          class="custom-button-primary custom-button-ok"
+          [disabled]="!addmovieactorForm.valid"
+        >
+          Accept
+        </button>
+        <button
+          i18n
+          type="button"
+          class="btn btn-danger ml-3"
+          (click)="cancelAdd()"
+        >
+          Cancel
+        </button>
+      </form>
+    </div>
+

@@ -1,0 +1,47 @@
+select {
+    -webkit-appearance: listbox !important;
+    -moz-appearance: listbox !important;
+    -ms-appearance: listbox !important;
+    appearance: listbox !important;
+}
+.header-style{
+    justify-content: flex-end!important;
+    margin-right: 10px;
+}
+.navbar-brand{
+    margin-left: 10px;
+    color: #004724;
+}
+.header-bar{
+    background-color: #FAF5E9;
+    color: #004724;
+    font-weight: bold;
+    font-family: 'Halant', serif;
+}
+
+.nav-item a{
+    color: #004724;
+    font-weight: bold;
+    font-family: 'Halant', serif;
+    font-size: large;
+}
+.custom-select{
+    color: #004724;
+    border-color: #004724;
+    font-family: 'Halant', serif;
+    font-size: large;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.idioma-select{
+    align-self: center;
+}
+.custom-select:focus{
+    border-color: #004724;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 155, 77, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 155, 77, 0.6);
+}
+.nav-item :hover{
+    font-size: 20px;
+}

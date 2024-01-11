@@ -1,0 +1,97 @@
+.outter-container {
+    background-color: #FBEBCE;
+}
+
+img {
+    height: 350px;
+    width: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
+.breadcrumb-detalle{
+    margin-left: 1.5rem;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #004724;
+}
+.title{
+    font-family: 'Halant', serif;
+    color: #004724;
+    font-weight: bold;
+}
+
+.card{
+    height: 100%;
+    border-radius: 20px;
+}
+.card-text.biography{
+    text-align: justify;
+}
+
+.card-img-top{
+    border-radius: 20px;
+}
+
+.details-container{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.card-details{
+    
+    color: #004724;
+    font-family: 'Halant', serif;
+    font-weight: bold;
+}
+.card-details:hover{
+    color: #003400;
+    font-family: 'Halant', serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text-detail{
+    padding-left: 2rem;
+}
+.text-detail h4{
+    color: #003400;
+    font-family: 'Halant', serif;
+    font-weight: bold;
+}
+.text-detail p{
+    font-family: 'Halant', serif;
+    font-size: medium;
+}
+.director-detail h4{
+    color: #003400;
+    font-family: 'Halant', serif;
+    font-weight: bold;
+}
+.director-detail p{
+    font-family: 'Halant', serif;
+    font-size: large;
+}
+
+.movie-picture-container{
+    padding-left: 20px;
+}
+
+.movie-picture-container img{
+    border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+    .card{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .movies-list{
+        margin-left: 2rem!important;
+    }
+    .movie-picture-container{
+        padding-left: 10px;
+    }
+
+}

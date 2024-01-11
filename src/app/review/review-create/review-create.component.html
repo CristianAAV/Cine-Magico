@@ -1,0 +1,136 @@
+<div class="container-fluid px-4 px-lg-5 h-100 pt-2 pb-2 outter-container">
+  <nav aria-label="breadcrumb" class="breadcrumb-detalle">
+    <ol class="breadcrumb">
+      <li i18n class="breadcrumb-item"><a routerLink="">Home</a></li>
+      <li i18n class="breadcrumb-item" aria-current="reviews">Reviews</li>
+    </ol>
+  </nav>
+  <div class="col-12">
+    <h2 i18n class="font-weight-bold text-center title">Create a new review for Movie</h2>
+  </div>
+  <form
+    [formGroup]="reviewForm"
+    (ngSubmit)="!reviewForm.invalid && createReviewForMovie(reviewForm.value)"
+  >
+
+    <!--Movie-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="movie" class="form-title">Select a Movie</label>
+      <select formControlName="movie" id="movie" novalidate
+        class="form-control custom-input">
+        <option *ngFor="let movie of movies" [value]="movie.id">{{ movie.title }}</option>
+      </select>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          reviewForm.get('movie')!.hasError('required') &&
+          reviewForm.get('movie')!.touched
+        "
+      >
+        Movie required
+      </div>
+    </div>
+
+
+    <!--Text-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="text" class="form-title">Text</label>
+      <textarea formControlName="text" id="text" 
+      novalidate
+      i18n-placeholder
+      class="form-control custom-input"
+      placeholder="Enter your review"
+      ></textarea>
+      
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          reviewForm.get('text')!.hasError('required') &&
+          reviewForm.get('text')!.touched
+        "
+      >
+        Review required
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="reviewForm.get('text')!.hasError('minlength')"
+      >
+        Review too short
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="reviewForm.get('text')!.hasError('maxlength')"
+      >
+        Review too long
+      </div>
+    </div>
+ 
+    <!--Score-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="score" class="form-title">Score {{reviewForm.value.score}}</label>
+      <input type="range" class="form-range" min="1" max="5" id="score"
+        class="form-control custom-input"
+        formControlName="score"
+        novalidate
+      >
+    </div>
+ 
+    <!--Creator-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="creator" class="form-title">Creator</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="creator"
+        class="form-control custom-input"
+        formControlName="creator"
+        placeholder="Review creator"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          reviewForm.get('creator')!.hasError('required') &&
+          reviewForm.get('creator')!.touched
+        "
+      >
+        Creator required
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="reviewForm.get('creator')!.hasError('minlength')"
+      >
+        Creator too short
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="reviewForm.get('creator')!.hasError('maxlength')"
+      >
+        Creator too long
+      </div>
+    </div>
+ 
+    <button
+      i18n
+      type="submit"
+      class="custom-button-ok"
+      [disabled]="!reviewForm.valid"
+    >
+      Create
+    </button>
+    <button
+      i18n
+      type="button"
+      class="custom-button-danger ml-3"
+      (click)="cancelCreation()"
+    >
+      Cancel
+    </button>
+  </form>
+ </div>

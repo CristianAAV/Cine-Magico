@@ -1,0 +1,71 @@
+<div class="container-fluid px-4 px-lg-5 h-100 pt-2 outter-container">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li i18n class="breadcrumb-item"><a routerLink="">Home</a></li>
+      <li i18n class="breadcrumb-item active" aria-current="page">Movies</li>
+    </ol>
+  </nav> 
+  <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+    <div class="col-12">
+      <h2 i18n class="font-weight-bold title">Movies</h2>
+    </div>
+      <div class="row mb-3">
+        <div class="col-12 col-sm-4 px-0"></div>
+        <div class="col-12 col-sm-4 px-0 text-center busqueda">
+          <div class="input-group ">
+            <input
+              type="text"
+              class="form-control custom-input"
+              i18n-placeholder
+              placeholder="Search movies"
+              aria-label="Search movies"
+              aria-describedby="button-addon2"
+              [(ngModel)]="movieSearch"
+            />
+            <button
+              class="btn btn-outline-secondary custom-button"
+              type="button"
+              id="button-addon2"
+              (click)="onSearchMovie()"
+              aria-label="Buscar Peliculas"
+            >
+              <em class="bi bi-search"></em>
+            </button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4  px-0 filtro">
+            <div class="selector ">
+              <span i18n class="px-md-0 px-sm-0">Order by </span>
+              <select #filter class=" mr-sm-2 custom-select" id="selectFilter" aria-label="Ordenar" (change)="onFiltered(filter.value)">
+                <option i18n value="option1" selected>Popularity</option>
+                <option i18n value="option2">Country</option>
+              </select>
+            </div>
+
+        </div>
+      </div>
+
+  </div>
+  <div class="row" >
+      <div class="col col-sm-6 col-md-4 mb-2" *ngFor="let movie of movies" >
+        <div class="card p-2 px-4-sm" style="width: 100%;">
+          <img
+            class="card-img-top"
+            src="{{ movie.poster }}"
+            alt="{{ movie.title }}"
+            style="max-width: 600px;"
+          />
+          <div class="card-body">
+            <h4 class="card-title">{{ movie.title }}</h4>
+            <p class="movie-rating text-start mb-0">{{calculateStars(movie.popularity)}}</p>
+            <p class="card-text"> {{movie.releaseDate | date}}</p>
+            <p class="card-text">{{ movie.country }}</p>
+            <h5 i18n class="card-details" (click)="onSelected(movie)">More details <em class="bi bi-arrow-right-circle-fill"></em></h5>
+          </div>
+       </div>
+      </div>
+  </div>
+  <div class="row text-center" *ngIf="movies.length ===0">
+    <h4 i18n class="failed-search">Not found movies</h4>
+  </div>
+</div>

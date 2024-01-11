@@ -1,0 +1,123 @@
+img {
+    height: 350px;
+    width: auto;
+    max-width: 400px;
+   }
+
+.outter-container {
+    background-color: #FBEBCE;
+}
+
+@media (max-width: 576px) {
+    .card{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .selector{
+        margin-right: 12px;
+    }
+    .filtro{
+        text-align:center!important;
+        padding-top: 0.5rem;
+    }
+    .busqueda{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+.card{
+    border-radius: 20px;
+}
+.card-img-top{
+    border-radius: 20px;
+}
+.custom-select{
+
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    color: #004724;
+    border-color: #004724;
+    font-family: 'Halant', serif;
+    font-size: large;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    justify-content: space-around;
+}
+.custom-select:focus{
+    border-color: #004724;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 155, 77, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 155, 77, 0.6);
+}
+.custom-input{
+    font-weight: 400; 
+    color: #004724;
+    border-color: #004724;
+}
+.custom-input:focus{
+    border-color: #004724;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 155, 77, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 155, 77, 0.6);
+}
+.custom-button{
+    font-weight: 400; 
+    color: #004724;
+    border-color: #004724;
+    background-color: #FBEBCE;
+}
+.custom-button:hover{ 
+    background-color: #004724;
+    color: #FBEBCE;
+}
+
+input::placeholder{
+    font-weight: 400; 
+    color: #004724;
+}
+
+.selector{
+    margin-right: 12px;
+    font-family: 'Halant', serif;
+    color: #004724;
+}
+.filtro{
+    text-align:end;
+}
+.title{
+    font-family: 'Halant', serif;
+    color: #004724;
+    font-weight: bold;
+}
+
+.card-title{
+    color:#003400;
+    font-family: 'Halant', serif;
+    font-weight: bold;
+}
+.card-details:hover{
+    color: #003400;
+    font-family: 'Halant', serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title-actores:hover {
+    font-size: 35px;
+    color: black;
+}
+
+.breadcrumb-detalle{
+    margin-left: 1.5rem;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #004724;
+}

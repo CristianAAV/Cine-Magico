@@ -1,0 +1,40 @@
+.footer{
+    padding-top: 20px;
+    background-color: #666666;
+   
+}
+
+.icon-footer{
+    margin-left: .25rem;
+    margin-right: .25rem;
+    color: #FBEBCE;
+    font-weight: bold;
+}
+.copyrigth{
+    color: #FBEBCE;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+}
+.address-footer{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0px;
+    font-size: small;
+}
+.address-footer a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-brand a{
+    text-decoration: none;
+    color: #FBEBCE;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 576px) {
+    .footer-brand{
+        text-align: center;
+    }
+}

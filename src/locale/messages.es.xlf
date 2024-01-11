@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6449908762010450259" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/directors/list&quot;&gt;"/>Directors<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/directors/list&quot;&gt;"/>Directores<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-detail/director-detail.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5612709566632732179" datatype="html">
+        <source>Detail</source>
+        <target>Detalles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-detail/director-detail.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="389231393823709480" datatype="html">
+        <source>DIRECTOR DETAIL</source>
+        <target>DETALLE DE DIRECTOR</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-detail/director-detail.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5872235988380409886" datatype="html">
+        <source>Popularity: <x id="INTERPOLATION" equiv-text="{{calculateStars(movie.popularity)}}"/></source>
+        <target>Popularidad: <x id="INTERPOLATION" equiv-text="{{calculateStars(movie.popularity)}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-detail/director-detail.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2075437169062828979" datatype="html">
+        <source>Release: <x id="INTERPOLATION" equiv-text="{{ movie.releaseDate | date }}"/></source>
+        <target>Lanzamiento: <x id="INTERPOLATION" equiv-text="{{ movie.releaseDate | date }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-detail/director-detail.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4227306479576622622" datatype="html">
+        <source>More details<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;bi bi-arrow-right-circle-fill&quot;&gt;"/><x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <target>Mas detalles<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;bi bi-arrow-right-circle-fill&quot;&gt;"/><x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-detail/director-detail.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8002267386201604078" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;&quot;&gt;"/>Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;&quot;&gt;"/>Inicio<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-detail/director-detail.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-list/director-list.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+		 <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8707352275157977601" datatype="html">
+        <source>Directors</source>
+        <target>Directores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-list/director-list.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8844908812351984305" datatype="html">
+        <source>DIRECTORS</source>
+        <target>DIRECTORES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-list/director-list.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3248070855615845806" datatype="html">
+        <source>Order by </source>
+        <target>Ordenar por </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-list/director-list.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <target>Nombre</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-list/director-list.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="516176798986294299" datatype="html">
+        <source>Country</source>
+        <target>Pais</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-list/director-list.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8741577477796238024" datatype="html">
+        <source>More details <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;bi bi-arrow-right-circle-fill&quot;&gt;"/><x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <target>Mas detalles <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;bi bi-arrow-right-circle-fill&quot;&gt;"/><x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-list/director-list.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6254067350060768640" datatype="html">
+        <source>Directors are not available at this time</source>
+        <target>En este momento No hay directores disponibles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-list/director-list.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8470407488129105681" datatype="html">
+        <source>Mail : </source>
+        <target>Correo : </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8436385934277401930" datatype="html">
+        <source>Movies</source>
+        <target>Peliculas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5271167162659040697" datatype="html">
+        <source>Actors</source>
+        <target>Actores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5190825892106392539" datatype="html">
+        <source>Spanish</source>
+        <target>Español</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5866254605255506989" datatype="html">
+        <source>English</source>
+        <target>Ingles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+	  
+	  <trans-unit id="9029286143304711365" datatype="html">
+        <source>Reviews</source>
+		<target>Rese&ntilde;a</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8898546927141901259" datatype="html">
+        <source>Create a new review for Movie</source>
+		<target>Crear una rese&ntilde;a para una Pelicula</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4166878186967825257" datatype="html">
+        <source>Select a Movie</source>
+		<target>Seleccionar una Pelicula</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5370987636293221739" datatype="html">
+        <source> Movie required </source>
+		<target>Se requiere una pelicula</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">30,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6162693758764653365" datatype="html">
+        <source>Text</source>
+		<target>Texto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7759307320175235768" datatype="html">
+        <source> Review required </source>
+        <target>Se requiere una rese&ntilde;a</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">53,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8678311397106754636" datatype="html">
+        <source> Review too short </source>
+		<target>La rese&ntilde;a es muy corta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">60,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3823754602946989125" datatype="html">
+        <source> Review too long </source>
+        <target>La rese&ntilde;a es muy larga</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4470575780412110613" datatype="html">
+        <source>Score <x id="INTERPOLATION" equiv-text="{{reviewForm.value.score}}"/></source>
+		<target>Puntaje <x id="INTERPOLATION" equiv-text="{{reviewForm.value.score}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1043390381565182083" datatype="html">
+        <source>Creator</source>
+		<target>Autor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="768224728957205814" datatype="html">
+        <source> Creator required </source>
+		<target> Se requiere autor </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">100,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5242172155248077598" datatype="html">
+        <source> Creator too short </source>
+		<target> Nombre de autor muy corto </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">107,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3315057136994514899" datatype="html">
+        <source> Creator too long </source>
+		<target> Nombre de autor muy largo </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">114,116</context>
+        </context-group>
+      </trans-unit>
+	  
+	  <trans-unit id="5674286808255988565" datatype="html">
+        <source>Create</source>
+		<target>Crear</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5186899940011294345" datatype="html">
+        <source>Create a new director</source>
+		<target>Crear un nuevo director</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+	  
+	  <trans-unit id="6547696461546837820" datatype="html">
+        <source> Name required </source>
+        <target>Se requiere nombre</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">34,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="859561779626039980" datatype="html">
+        <source> Name too short </source>
+        <target>El nombre es muy corto</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">41,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7678070180451618171" datatype="html">
+        <source> Name too long </source>
+        <target>El nombre es muy largo</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">48,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5750485945694679561" datatype="html">
+        <source>Photo</source>
+		<target>Imagen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4155153390099271032" datatype="html">
+        <source> Image required </source>
+        <target>Se requiere imagen</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">71,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4903497133433980780" datatype="html">
+        <source>Nationality</source>
+        <target>Nacionalidad</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3510733340975014942" datatype="html">
+        <source> Nationality required </source>
+        <target>Se requiere nacionalidad</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">94,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3374601603671167355" datatype="html">
+        <source> Nationality too short </source>
+        <target>La nacionalidad es muy corta</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">101,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1913339118031894069" datatype="html">
+        <source> Nationality too long </source>
+        <target>La nacionalidad es muy larga</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">108,110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9022391343105663744" datatype="html">
+        <source>Birth date</source>
+        <target>Fecha de nacimiento</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5476690829661621250" datatype="html">
+        <source> Birth date required </source>
+        <target>Se requiere fecha de nacimiento</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">133,135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2744569715266946921" datatype="html">
+        <source>Biography</source>
+        <target>Biograf&iacute;a</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4106057035584935366" datatype="html">
+        <source> Biography required </source>
+        <target>La biograf&iacute;a es requerida</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">156,158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6534590054052900972" datatype="html">
+        <source> Biography too long </source>
+        <target>La biograf&iacute;a es muy corta</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">163,165</context>
+        </context-group>
+      </trans-unit>
+	  
+	  <trans-unit id="7941428823403788384" datatype="html">
+        <source> Create </source>
+		<target> Crear </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">173,175</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">124,126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2330577642930707695" datatype="html">
+        <source> Cancel </source>
+        <target> Cancel </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-association/actor-association.component.html</context>
+          <context context-type="linenumber">46,48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">170,172</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">181,183</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/add-actor-movie/add-actor-movie.component.html</context>
+          <context context-type="linenumber">46,48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">225,227</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">132,134</context>
+        </context-group>
+      </trans-unit>
+	  
+	  <trans-unit id="6449908762010450259" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/directors/list&quot;&gt;"/>Directors<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target> Directores </target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-detail/director-detail.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+	  <trans-unit id="7906458871395232033" datatype="html">
+        <source>List</source>
+		<target> Listar </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+	  
+	  <trans-unit id="6601282145865931535" datatype="html">
+        <source>Review creator</source>
+		<target>Creador de la rese&ntilde;a</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+	  
+	  <trans-unit id="4266146142730329736" datatype="html">
+        <source>Enter your review</source>
+		<target>Ingrese su rese&ntilde;a</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/review/review-create/review-create.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+	  
+	  <trans-unit id="1367870144394891892" datatype="html">
+        <source>Enter Name</source>
+		<target>Ingrese nombre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+	  
+	  <trans-unit id="1128963322159517477" datatype="html">
+        <source>URL with image</source>
+		<target>URL de la imagen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+	  
+	  <trans-unit id="6001712884237237229" datatype="html">
+        <source>Enter Nationality</source>
+        <target>Ingrese la nacionalidad</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+	  
+	  <trans-unit id="8443153320287386212" datatype="html">
+        <source>Enter Birth date</source>
+        <target>Ingrese la fecha de nacimiento</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+	  <trans-unit id="6219912974698304829" datatype="html">
+        <source>Enter Biography</source>
+        <target>Ingrese la biograf&iacute;a</target>
+		<context-group purpose="location">
+          <context context-type="sourcefile">src/app/director/director-create/director-create.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+      </trans-unit>
+
+
+
+
+      <trans-unit id="3905505941461916450" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/actors/list&quot;&gt;"/>Actors<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/actors/list&quot;&gt;"/>Actores<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-detail/actor-detail.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-list/actor-list.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5674286808255988565" datatype="html">
+        <source>Create</source>
+        <target>Crear</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <target>Nombre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4527113506416735620" datatype="html">
+        <source>actors name</source>
+        <target>Nombre del actor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6547696461546837820" datatype="html">
+        <source> Name required </source>
+        <target>Nombre requerido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9010040018819930054" datatype="html">
+        <source>photo</source>
+        <target>Foto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2615179439754602363" datatype="html">
+        <source> Image insertion required </source>
+        <target>Se requiere la insercion de una imagen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">61,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4903497133433980780" datatype="html">
+        <source>Nationality</source>
+        <target>Nacionalidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2093759834356182031" datatype="html">
+        <source> Nationality is required </source>
+        <target>Nacionalidad es requerida</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">84,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7213565236682000187" datatype="html">
+        <source>Birthday date</source>
+        <target>Fecha de nacimiento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5476690829661621250" datatype="html">
+        <source> Birth date required </source>
+        <target> Fecha de nacimiento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">109,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2744569715266946921" datatype="html">
+        <source>Biography</source>
+        <target>Biografia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7135570148191270951" datatype="html">
+        <source> Biography is required </source>
+        <target>Biografia requerida</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">132,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5235872322864214716" datatype="html">
+        <source> Biography is too long </source>
+        <target>Biografia es muy larga</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">139,141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2567783887179273200" datatype="html">
+        <source> Biography is too short </source>
+        <target>Biografia es muy corta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">146,148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7941428823403788384" datatype="html">
+        <source> Create </source>
+        <target>Crear</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">158,162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2330577642930707695" datatype="html">
+        <source> Cancel </source>
+        <target>Cancelar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">170,172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1433179506066481101" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;&quot;&gt;"/>Index<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-detail/actor-detail.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-list/actor-list.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5612709566632732179" datatype="html">
+        <source>Detail</source>
+        <target>Detalles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-detail/actor-detail.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1586636056031931900" datatype="html">
+        <source>ACTOR INFORMATION</source>
+        <target>INFORMACION DEL ACTOR</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-detail/actor-detail.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ actorDetail.nationality }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-detail/actor-detail.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-detail/actor-detail.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-list/actor-list.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="466492426610382126" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{ movie.country }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-detail/actor-detail.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8741577477796238024" datatype="html">
+        <source>More details <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;bi bi-arrow-right-circle-fill&quot;&gt;"/><x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-detail/actor-detail.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8182452039301303044" datatype="html">
+        <source>ACTORS</source>
+        <target>ACTORES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-list/actor-list.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3248070855615845806" datatype="html">
+        <source>Order by </source>
+        <target>Ordenar por</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-list/actor-list.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="516176798986294299" datatype="html">
+        <source>Country</source>
+        <target>Pais</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-list/actor-list.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5316090872036106025" datatype="html">
+        <source>More information <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;bi bi-arrow-right-circle-fill&quot;&gt;"/><x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <target>Mas informacion</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-list/actor-list.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+	  
+
+
+
+
+
+      <trans-unit id="8436385934277401930" datatype="html">
+        <source>Movies</source>
+        <target>Peliculas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-list/movies-list.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-list/movies-list.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7906458871395232033" datatype="html">
+        <source>List</source>
+        <target>Listar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5674286808255988565" datatype="html">
+        <source>Create</source>
+        <target>Crear</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8002267386201604078" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;&quot;&gt;"/>Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;&quot;&gt;"/>Inicio<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-detail/movies-detail.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-list/movies-list.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2690133708334979695" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/movies/list&quot;&gt;"/>Movies<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/movies/list&quot;&gt;"/>Peliculas<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-detail/movies-detail.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1870833324849272337" datatype="html">
+        <source>Create a new movie</source>
+        <target>Crear nueva pelicula</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5701618810648052610" datatype="html">
+        <source>Title</source>
+        <target>Titulo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6501669828019845461" datatype="html">
+        <source>movie title</source>
+        <target>Titulo de pelicula</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5297596846496605666" datatype="html">
+        <source> Title required </source>
+        <target> Titulo requerido </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7493596252185673151" datatype="html">
+        <source> Title too short </source>
+        <target> Titulo esta corto </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">41,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1533242556434312151" datatype="html">
+        <source> Title too long </source>
+        <target> Titulo esta largo </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4759501379960802880" datatype="html">
+        <source>Poster</source>
+        <target>Poster</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2519891285671844938" datatype="html">
+        <source>URL with movie poster</source>
+        <target>URL con poster de la pelicula</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9180821011805310385" datatype="html">
+        <source> Poster required </source>
+        <target> Poster requerido </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">71,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7410432243549869948" datatype="html">
+        <source>Duration</source>
+        <target>Duracion</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="708940692837962344" datatype="html">
+        <source>movie duration</source>
+        <target>duracion de la pelicula</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4285613411291776524" datatype="html">
+        <source> Duration required </source>
+        <target> Duracion requerida </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">95,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="541798580999847705" datatype="html">
+        <source> Duration must be a positive integer </source>
+        <target> Duration must be a positive integer </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">105,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="516176798986294299" datatype="html">
+        <source>Country</source>
+        <target>Pais</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-list/movies-list.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8281220913043635163" datatype="html">
+        <source>movie country</source>
+        <target>Pais de la pelicula</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1517755791717583186" datatype="html">
+        <source> Country required </source>
+        <target> Pais requerido </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">128,130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6721016808165055399" datatype="html">
+        <source> Country too short </source>
+        <target> Pais esta corto </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">135,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="953493202557362827" datatype="html">
+        <source> Country too long </source>
+        <target> Pais esta largo </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">142,144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2536442716006510051" datatype="html">
+        <source>Release Date</source>
+        <target>Fecha de lanzamiento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2989782829900462184" datatype="html">
+        <source>movie releaseDate</source>
+        <target>fecha de lanzamiento de pelicula</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8403258528692927766" datatype="html">
+        <source> Release Date required </source>
+        <target> Fecha de lanzamiento requerida </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">167,169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="916798626618034358" datatype="html">
+        <source>Popularity</source>
+        <target>Popularidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">174</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-list/movies-list.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5579611795275736055" datatype="html">
+        <source>movie popularity of 1 - 5</source>
+        <target>popularidad de la pelicula de 1 - 5</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7581220497916056330" datatype="html">
+        <source> Popularity required </source>
+        <target> Populardiad requerida </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">191,193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1442935068330552114" datatype="html">
+        <source> Popularity must be a positive integer </source>
+        <target> La popularidad debe ser un número entero positivo </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">201,203</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7941428823403788384" datatype="html">
+        <source> Create </source>
+        <target> Crear </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">217,219</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2330577642930707695" datatype="html">
+        <source> Cancel </source>
+        <target> Cancelar </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movie-create/movie-create.component.html</context>
+          <context context-type="linenumber">225,227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5612709566632732179" datatype="html">
+        <source>Detail</source>
+        <target>Detalles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-detail/movies-detail.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7144820443197664491" datatype="html">
+        <source>MOVIE DETAIL</source>
+        <target>DETALLE DE PELICULA</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-detail/movies-detail.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7430680760319628492" datatype="html">
+        <source>Review</source>
+        <target>Rese&ntilde;a</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-detail/movies-detail.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2980631781203421502" datatype="html">
+        <source>Director :</source>
+        <target>Director :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-detail/movies-detail.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="606355655010734347" datatype="html">
+        <source>More Details <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;bi bi-arrow-right-circle-fill&quot;&gt;"/><x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <target>Mas Detalles <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;bi bi-arrow-right-circle-fill&quot;&gt;"/><x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-detail/movies-detail.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-detail/movies-detail.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4050504752762514794" datatype="html">
+        <source> Actors </source>
+        <target> Actores </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-detail/movies-detail.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3248070855615845806" datatype="html">
+        <source>Order by </source>
+        <target>Ordenar por </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-list/movies-list.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8741577477796238024" datatype="html">
+        <source>More details <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;bi bi-arrow-right-circle-fill&quot;&gt;"/><x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <target>Mas detalles <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;bi bi-arrow-right-circle-fill&quot;&gt;"/><x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-list/movies-list.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1746363173810062191" datatype="html">
+        <source>Not found movies</source>
+        <target>No se encuentran peliculas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-list/movies-list.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+
+
+      <trans-unit id="1749398001028533083" datatype="html">
+        <source>Search movies</source>
+        <target>Buscar peliculas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-list/movies-list.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+
+            <trans-unit id="457435396376992824" datatype="html">
+        <source>URL with Authors photo</source>
+        <target>URL de la foto del autor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="2658352749194781193" datatype="html">
+        <source>Author nationality</source>
+        <target>Nacionalidad del autor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="3975017601210726829" datatype="html">
+        <source>Author birth date</source>
+        <target>Fecha de nacimiento del autor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="8210616493970927988" datatype="html">
+        <source>Author Biography</source>
+        <target>Biografia del autor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-create/actor-create.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+
+
+
+
+
+      <trans-unit id="8703753322494151134" datatype="html">
+        <source>Associate actor</source>
+        <target>Asociar Actor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="4588080529449179244" datatype="html">
+        <source>Associate</source>
+        <target>Asociar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/add-actor-movie/add-actor-movie.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7110108095668426262" datatype="html">
+        <source>Associate an actor to a movie</source>
+        <target>Asociar un actor a una pelicula</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/add-actor-movie/add-actor-movie.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="9202078995274661710" datatype="html">
+        <source>Select Movie</source>
+        <target>Selecciona una pelicula</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/add-actor-movie/add-actor-movie.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8570041916899104259" datatype="html">
+        <source>Select Actor</source>
+        <target>Selecciona un actor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/add-actor-movie/add-actor-movie.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+
+      
+      <trans-unit id="439130533561834924" datatype="html">
+        <source> Accept </source>
+        <target> Aceptar </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-association/actor-association.component.html</context>
+          <context context-type="linenumber">38,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2355682139562813395" datatype="html">
+        <source>Associate a movie to an actor</source>
+        <target>Asoricar una pelicula a un actor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-association/actor-association.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6561486073110844661" datatype="html">
+        <source>Select an Actor</source>
+        <target>Selecciona un actor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-association/actor-association.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9145464597148255272" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/actors/list&quot;&gt;"/>Actors<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/actors/list&quot;&gt;"/>Actores<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/actores/actor-association/actor-association.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      
+      <trans-unit id="4079566822848872760" datatype="html">
+        <source> Associate </source>
+        <target> Asociar </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/add-actor-movie/add-actor-movie.component.html</context>
+          <context context-type="linenumber">38,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6983326487281744620" datatype="html">
+        <source>Director</source>
+        <target>Director</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/movies/movies-detail/movies-detail.component.ts</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

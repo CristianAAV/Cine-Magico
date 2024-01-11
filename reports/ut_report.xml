@@ -1,0 +1,179 @@
+<testExecutions version="1">
+  <file path="src/app/app.component.spec.ts">
+    <testCase name="AppComponent should have as title 'base-project'" duration="62"/>
+    <testCase name="AppComponent should create the app" duration="4"/>
+  </file>
+  <file path="src/app/director/director-create/director-create.component.spec.ts">
+    <testCase name="DirectorCreateComponent should contain a form element" duration="49"/>
+    <testCase name="DirectorCreateComponent should have valid form" duration="9"/>
+    <testCase name="DirectorCreateComponent should have a input with placeholder Enter Biography" duration="10"/>
+    <testCase name="DirectorCreateComponent should have a input with placeholder Enter Nationality" duration="9"/>
+    <testCase name="DirectorCreateComponent should have a input for nationality" duration="11"/>
+    <testCase name="DirectorCreateComponent should have a input for biography" duration="10"/>
+    <testCase name="DirectorCreateComponent should have a input with placeholder URL with image" duration="11"/>
+    <testCase name="DirectorCreateComponent should have a input with placeholder Enter Name" duration="23"/>
+    <testCase name="DirectorCreateComponent should have a input for birthDate" duration="20"/>
+    <testCase name="DirectorCreateComponent should have a input for photo" duration="18"/>
+    <testCase name="DirectorCreateComponent should have a input for name" duration="18"/>
+  </file>
+  <file path="src/app/header/header.component.spec.ts">
+    <testCase name="HeaderComponent should have an img element with alt= icono-magico" duration="30"/>
+    <testCase name="HeaderComponent should create" duration="9"/>
+    <testCase name="HeaderComponent should have an img element with src= /assets/icon/TICONO_GREEN.png" duration="9"/>
+    <testCase name="HeaderComponent should have 4 &lt;li> elements" duration="8"/>
+  </file>
+  <file path="src/app/footer/footer.component.spec.ts">
+    <testCase name="FooterComponent should have an img element with alt= icono-magico" duration="15"/>
+    <testCase name="FooterComponent should create" duration="7"/>
+    <testCase name="FooterComponent should have 6 &lt;a> icon footer elements" duration="7"/>
+    <testCase name="FooterComponent should have a copyright element" duration="5"/>
+    <testCase name="FooterComponent should have an img element with src= /assets/icon/TICONO_PALE.png" duration="6"/>
+  </file>
+  <file path="src/app/actores/actor-association/actor-association.component.spec.ts">
+    <testCase name="ActorAssociationComponent should have an actor name" duration="37"/>
+    <testCase name="ActorAssociationComponent should have an movie name" duration="20"/>
+    <testCase name="ActorAssociationComponent should create" duration="16"/>
+    <testCase name="ActorAssociationComponent should contain a form element" duration="15"/>
+  </file>
+  <file path="src/app/movies/movie-create/movie-create.component.spec.ts">
+    <testCase name="MovieCreateComponent should have a input with placeholder Enter duration" duration="44"/>
+    <testCase name="MovieCreateComponent should have a input for duration" duration="20"/>
+    <testCase name="MovieCreateComponent should have a input with placeholder Enter popularity" duration="15"/>
+    <testCase name="MovieCreateComponent should have a input with placeholder Enter poster" duration="13"/>
+    <testCase name="MovieCreateComponent should have a input with placeholder Enter releaseDate" duration="17"/>
+    <testCase name="MovieCreateComponent should have a input with placeholder Enter duration" duration="15"/>
+    <testCase name="MovieCreateComponent should have a input for duration" duration="13"/>
+    <testCase name="MovieCreateComponent should have a input for popularity" duration="16"/>
+    <testCase name="MovieCreateComponent should contain a form element" duration="18"/>
+    <testCase name="MovieCreateComponent should have a input for title" duration="18"/>
+    <testCase name="MovieCreateComponent should create" duration="11"/>
+    <testCase name="MovieCreateComponent should have a input with placeholder Enter Title" duration="10"/>
+    <testCase name="MovieCreateComponent should have a input for poster" duration="8"/>
+    <testCase name="MovieCreateComponent should have a input for releaseDate" duration="8"/>
+    <testCase name="MovieCreateComponent should have a input with placeholder Enter country" duration="9"/>
+    <testCase name="MovieCreateComponent should have a input for country" duration="7"/>
+  </file>
+  <file path="src/app/movies/movies-detail/movies-detail.component.spec.ts">
+    <testCase name="MoviesDetailComponent should create" duration="28"/>
+    <testCase name="MoviesDetailComponent should have px-md-0 px-sm-0 Siapsis" duration="17"/>
+    <testCase name="MoviesDetailComponent should have a movieDetail with youtubeTrailer" duration="8"/>
+    <testCase name="MoviesDetailComponent should have a movieDetail with poster" duration="7"/>
+    <testCase name="MoviesDetailComponent should have a movieDetail" duration="6"/>
+    <testCase name="MoviesDetailComponent should have p tag with the movieDetail.youtubeTrailer.name" duration="7"/>
+    <testCase name="MoviesDetailComponent should have a movieDetail with director" duration="5"/>
+    <testCase name="MoviesDetailComponent should have a 3  breadcrumb-item" duration="7"/>
+    <testCase name="MoviesDetailComponent should have a movieDetail with title" duration="6"/>
+    <testCase name="MoviesDetailComponent should have col-6 - actor.name" duration="5"/>
+    <testCase name="MoviesDetailComponent should have p tag with the movieDetail.director.name" duration="7"/>
+    <testCase name="MoviesDetailComponent should have a movieDetail with actors" duration="6"/>
+    <testCase name="MoviesDetailComponent should have movie-review-text - reviews.text" duration="6"/>
+  </file>
+  <file path="src/app/actores/actor-detail/actor-detail.component.spec.ts">
+    <testCase name="ActorDetailComponent should have a p.actor element with actorDetail.biography" duration="21"/>
+    <testCase name="ActorDetailComponent should have a p.actor element with actorDetail.birthDate" duration="10"/>
+    <testCase name="ActorDetailComponent should have title-actores elements" duration="12"/>
+    <testCase name="ActorDetailComponent should have at least one &lt;img> element" duration="8"/>
+    <testCase name="ActorDetailComponent should have a h4.actor-name element with ActorDetail.name" duration="8"/>
+    <testCase name="ActorDetailComponent should have a name" duration="8"/>
+    <testCase name="ActorDetailComponent should have a img element with actorDetail.photo" duration="11"/>
+    <testCase name="ActorDetailComponent should have a actor-nationality element with actorDetail.nationality" duration="9"/>
+    <testCase name="ActorDetailComponent should create" duration="8"/>
+  </file>
+  <file path="src/app/interceptors/HttpErrorInterceptorService.service.spec.ts">
+    <testCase name="Service: HttpErrorInterceptorService should ..." duration="4"/>
+  </file>
+  <file path="src/app/actores/actor-list/actor-list.component.spec.ts">
+    <testCase name="ActorListComponent should have at least one &lt;img> element" duration="17"/>
+    <testCase name="ActorListComponent should create" duration="7"/>
+    <testCase name="ActorListComponent should have 10 &lt;div.card-body> elements" duration="7"/>
+    <testCase name="ActorListComponent should have the corresponding actor image" duration="12"/>
+    <testCase name="ActorListComponent should have h4 tag with the actor.name" duration="7"/>
+    <testCase name="ActorListComponent should have card-title - name.actor" duration="9"/>
+    <testCase name="ActorListComponent should have p tag with the actor.nationality" duration="7"/>
+    <testCase name="ActorListComponent should have title-actores elements" duration="10"/>
+    <testCase name="ActorListComponent should have 10 &lt;img> elements" duration="13"/>
+    <testCase name="ActorListComponent should have p card-text - actor. nacionality" duration="14"/>
+  </file>
+  <file path="src/app/actores/actor.service.spec.ts">
+    <testCase name="Service: Actor should ..." duration="2"/>
+  </file>
+  <file path="src/app/review/review.service.spec.ts">
+    <testCase name="Service: Review should ..." duration="3"/>
+  </file>
+  <file path="src/app/movies/add-actor-movie/add-actor-movie.component.spec.ts">
+    <testCase name="AddActorMovieComponent should have a label with title Select Actor" duration="17"/>
+    <testCase name="AddActorMovieComponent should have a button with text Cancel" duration="13"/>
+    <testCase name="AddActorMovieComponent should have a label with title Select Movie" duration="11"/>
+    <testCase name="AddActorMovieComponent should have a button with text Associate" duration="11"/>
+    <testCase name="AddActorMovieComponent should create" duration="10"/>
+    <testCase name="AddActorMovieComponent should contain a form element" duration="9"/>
+    <testCase name="AddActorMovieComponent should have a select for movie" duration="11"/>
+    <testCase name="AddActorMovieComponent should have a select for actor" duration="8"/>
+  </file>
+  <file path="src/app/movies/movies.service.spec.ts">
+    <testCase name="Service: Movies should ..." duration="5"/>
+  </file>
+  <file path="src/app/director/director-detail/director-detail.component.spec.ts">
+    <testCase name="DirectorDetailComponent should have an img element with alt= directorDetail.name" duration="30"/>
+    <testCase name="DirectorDetailComponent should have an movie picture element with src= movie.photo" duration="10"/>
+    <testCase name="DirectorDetailComponent should have an h4.movie-title element with movie.title" duration="15"/>
+    <testCase name="DirectorDetailComponent should have an img element with alt= movie.title" duration="18"/>
+    <testCase name="DirectorDetailComponent should have 10 &lt;h4> elements" duration="14"/>
+    <testCase name="DirectorDetailComponent should have an p.movie-country element with movie.country" duration="16"/>
+    <testCase name="DirectorDetailComponent should have an p.movie-text element with movie.releaseDate" duration="23"/>
+    <testCase name="DirectorDetailComponent should have an img element with src= directorDetail.photo" duration="16"/>
+    <testCase name="DirectorDetailComponent should have a p.biography element with directorDetail.biography" duration="14"/>
+    <testCase name="DirectorDetailComponent should return 5 filled stars ★★★★★" duration="10"/>
+    <testCase name="DirectorDetailComponent should have a p.director-birthdate element with directorDetail.birthDate" duration="11"/>
+    <testCase name="DirectorDetailComponent should return 2 filled stars ★★☆☆☆" duration="11"/>
+    <testCase name="DirectorDetailComponent should have a p.director-nationality element with directorDetail.nationality" duration="12"/>
+    <testCase name="DirectorDetailComponent should return 5 empty stars ☆☆☆☆☆" duration="12"/>
+    <testCase name="DirectorDetailComponent should have a h4.director-name element with directorDetail.name" duration="10"/>
+    <testCase name="DirectorDetailComponent should create" duration="9"/>
+  </file>
+  <file path="src/app/review/review-create/review-create.component.spec.ts">
+    <testCase name="ReviewCreateComponent should have a select for movie" duration="31"/>
+    <testCase name="ReviewCreateComponent should have a input with placeholder Review creator" duration="11"/>
+    <testCase name="ReviewCreateComponent should have a input for creator" duration="14"/>
+    <testCase name="ReviewCreateComponent should create" duration="12"/>
+    <testCase name="ReviewCreateComponent should have valid form" duration="14"/>
+    <testCase name="ReviewCreateComponent should have a textarea for text" duration="12"/>
+    <testCase name="ReviewCreateComponent should have a input for score" duration="8"/>
+    <testCase name="ReviewCreateComponent should have a textarea with placeholder Enter your review" duration="14"/>
+  </file>
+  <file path="src/app/director/director-list/director-list.component.spec.ts">
+    <testCase name="DirectorListComponent should have the corresponding src to the director image and alt to the director name" duration="22"/>
+    <testCase name="DirectorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted director should not exist" duration="15"/>
+    <testCase name="DirectorListComponent should have 10 &lt;img> elements" duration="15"/>
+    <testCase name="DirectorListComponent should create" duration="11"/>
+    <testCase name="DirectorListComponent should have h4 tag with the director.name" duration="20"/>
+    <testCase name="DirectorListComponent should filter directors by nationality" duration="37"/>
+    <testCase name="DirectorListComponent should have 10 &lt;card.p-2> elements" duration="12"/>
+    <testCase name="DirectorListComponent should filter directors by name" duration="13"/>
+    <testCase name="DirectorListComponent should have p tag with the director.nationality" duration="15"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.card-body> elements" duration="11"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.col.mb-2> elements" duration="15"/>
+  </file>
+  <file path="src/app/movies/movies-list/movies-list.component.spec.ts">
+    <testCase name="MoviesListComponent should have 10 &lt;div.card-body> elements" duration="110"/>
+    <testCase name="MoviesListComponent should have the corresponding src to the movies image and alt to the movies title" duration="131"/>
+    <testCase name="MoviesListComponent should have 10 &lt;img> elements" duration="84"/>
+    <testCase name="MoviesListComponent should have 10 &lt;div.col.mb-2> elements" duration="56"/>
+    <testCase name="MoviesListComponent should have 10 &lt;card.p-2> elements" duration="57"/>
+    <testCase name="MoviesListComponent should create" duration="56"/>
+    <testCase name="MoviesListComponent should have h4 tag with the movies.title" duration="43"/>
+    <testCase name="MoviesListComponent should have 9 &lt;div.col.mb-2> elements and the deleted movies should not exist" duration="81"/>
+  </file>
+  <file path="src/app/director/director.service.spec.ts">
+    <testCase name="Service: Director should ..." duration="2"/>
+  </file>
+  <file path="src/app/actores/actor-create/actor-create.component.spec.ts">
+    <testCase name="ActorCreateComponent should have a input for biography" duration="19"/>
+    <testCase name="ActorCreateComponent should have a input for nationality" duration="9"/>
+    <testCase name="ActorCreateComponent should have a input for birthDate" duration="6"/>
+    <testCase name="ActorCreateComponent should have a input for name" duration="11"/>
+    <testCase name="ActorCreateComponent should have a input for photo" duration="10"/>
+    <testCase name="ActorCreateComponent should create" duration="9"/>
+    <testCase name="ActorCreateComponent should contain a form element" duration="9"/>
+  </file>
+</testExecutions>

@@ -1,0 +1,174 @@
+<div class="container-fluid px-4 px-lg-5 h-100 pt-2 pb-2 outter-container">
+  <nav aria-label="breadcrumb" class="breadcrumb-detalle">
+    <ol class="breadcrumb">
+      <li i18n class="breadcrumb-item"><a routerLink="">Home</a></li>
+      <li i18n class="breadcrumb-item"><a routerLink="/actors/list">Actors</a></li>
+      <li i18n class="breadcrumb-item active" aria-current="create">Create</li>
+    </ol>
+  </nav>
+  <h2 class="text-center">Create a new actor</h2>
+  <form
+  [formGroup]="actorForm"
+  (ngSubmit)="!actorForm.invalid && createActor(actorForm.value)"
+  >
+    <!--Name-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="name" class="form-title">Name</label>
+      <input
+        novalidate
+        i18n-placeholder
+        id="name"
+        class="form-control custom-input"
+        formControlName="name"
+        placeholder="actors name"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          actorForm.get('name')!.hasError('required') &&
+          actorForm.get('name')!.touched
+        "
+      >
+        Name required
+      </div>
+      <div
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="actorForm.get('name')!.hasError('minlength')"
+      >
+        The selected name is to short
+      </div>
+    </div>
+
+    <!--photo-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="photo" class="form-title">photo</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="photo"
+        class="form-control custom-input"
+        formControlName="photo"
+        placeholder="URL with Authors photo"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          actorForm.get('photo')!.hasError('required') &&
+          actorForm.get('photo')!.touched
+        "
+      >
+        Image insertion required
+      </div>
+    </div>
+
+<!--Nacionality-->
+<div class="form-group mx-sm-3 mb-2">
+  <label i18n for="nationality" class="form-title">Nationality</label>
+  <input
+    i18n-placeholder
+    novalidate
+    id="nationality"
+    class="form-control custom-input"
+    formControlName="nationality"
+    placeholder="Author nationality"
+  />
+  <div
+    i18n
+    class="alert alert-danger alert-dismissible fade show"
+    *ngIf="
+      actorForm.get('nationality')!.hasError('required') &&
+      actorForm.get('nationality')!.touched
+    "
+  >
+    Nationality is required
+  </div>
+</div>
+
+
+    <!--Birth Date-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="birthDate" class="form-title">Birthday date</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="birthDate"
+        class="form-control custom-input"
+        formControlName="birthDate"
+        placeholder="Author birth date"
+        type="date"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          actorForm.get('birthDate')!.hasError('required') &&
+          actorForm.get('birthDate')!.touched
+        "
+      >
+        Birth date required
+      </div>
+    </div>
+
+    <!--Biography-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="biography" class="form-title">Biography</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="biography"
+        class="form-control custom-input"
+        formControlName="biography"
+        placeholder="Author Biography"
+      />
+      <div
+        i18n  
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          actorForm.get('biography')!.hasError('required') &&
+          actorForm.get('biography')!.touched
+        "
+      >
+        Biography is required
+        </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="actorForm.get('biography')!.hasError('maxlength')"
+      >
+        Biography is too long
+      </div>
+      <div
+      i18n
+      class="alert alert-danger alert-dismissible fade show"
+      *ngIf="actorForm.get('biography')!.hasError('minlength')"
+    >
+      Biography is too short
+    </div>
+    </div>
+
+    <button
+      i18n  
+      type="submit"
+      class="custom-button-ok"
+      [disabled]="!actorForm.valid"
+
+
+    >
+    
+      Create
+
+    </button>
+    <button
+      i18n
+      type="button"
+      class="custom-button-danger ml-3"
+      (click)="cancelCreation()"
+
+
+    >
+      Cancel
+    </button>  
+  </form>
+</div>

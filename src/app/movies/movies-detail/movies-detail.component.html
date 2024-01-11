@@ -1,0 +1,123 @@
+<div class="container-fluid outter-container gx-4 gx-lg-5 h-100 pt-2">
+  <nav aria-label="breadcrumb" class="breadcrumb-detalle">
+    <ol class="breadcrumb">
+      <li i18n class="breadcrumb-item"><a routerLink="">Home</a></li>
+      <li i18n class="breadcrumb-item"><a routerLink="/movies/list">Movies</a></li>
+      <li i18n class="breadcrumb-item active" aria-current="page">Detail</li>
+    </ol>
+  </nav>
+  <div  class="row align-items-center justify-content-center text-center">
+    <div class="col-12">
+      <h2 i18n class="font-weight-bold title">MOVIE DETAIL</h2>
+    </div>
+    <div class="row mb-3">
+
+
+      <div class="col-12 col-sm-6 px-3">
+        <div class="card p-2 px-4-sm" style="width: 100%;">
+          <img class="card-img-top" 
+          src="{{ movieDetail.poster }}" 
+          alt="{{ movieDetail.title }}"
+          style="max-width: 600px;" 
+        />
+          <div class="card-body">
+            <h4 class="card-title">{{ movieDetail.title }}</h4>
+            <p class="movies-releaseDate text-start mb-0">{{ movieDetail.releaseDate  | date }}</p>
+            <p class="movie-rating text-start mb-0"> {{calculateStars(movieDetail.popularity)}}</p>        
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="col-12 col-sm-6 px-3">
+        <div class="card p-2 px-4-sm" style="width: 100%;">
+          <img class="card-img-top" 
+          src="\assets\Trailer.png" 
+          alt="Trailer {{ movieDetail.title }}"
+          style="max-width: 600px;" 
+        />
+          <div class="card-body">
+            <h4 class="card-title">Trailer</h4>
+            <p class="movies-trailername text-start mb-0">{{ movieDetail.youtubeTrailer.name }}</p>     
+            <p class="movies-espacio text-start mb-0">...</p>   
+          </div>
+          
+        </div>
+      </div>
+    
+  </div>
+    <br/>
+    <hr/>
+    <br/>
+
+  <div class="row mb-4 p-2 px-4-sm director-list-actor-list text-center" >
+    <div class="col-sm-12 col-md-6">
+      <div class="row mb-4 p-2 px-4-sm title text-center">        
+        <h2 i18n class="text-start text-center" >Director</h2>            
+      </div>
+      <div class="row mb-4 p-2 px-4-sm director-list-actor-list text-center">
+        <div class="col-sm-12 col-md-6 col-lg-4 text-start director-picture-container text-center">
+          <img class="director-photo" 
+          src="{{ movieDetail.director.photo }}" 
+          alt="{{ movieDetail.director.name }}"
+          style="max-width: 150px; height: auto;" />
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 text-detail text-center">
+          <P class="text-start text-center" >{{ movieDetail.director.name }}</P>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 details-container ">
+          <h5 i18n class="card-details " routerLink="/directors/{{movieDetail.director.id}}">More Details <em class="bi bi-arrow-right-circle-fill"></em></h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6">      
+      <div class="row mb-4 p-2 px-4-sm title text-center"> 
+        <h2 i18n class="text-start text-center"  > Actors </h2>            
+      </div>
+      <div class="row mb-4 p-2 px-4-sm director-list-actor-list text-center" *ngFor="let actor of movieDetail.actors">
+        <div class="col-sm-12 col-md-6 col-lg-4  text-start actor-picture-containe text-center ">
+          <img class="actor-photo" 
+          src="{{actor.photo }}" 
+          alt="{{ actor.name }}"
+          style="max-width: 150px; height: auto;" />
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 text-detail text-center" >
+          <P class="text-start text-center" >{{ actor.name }}</P>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 details-container ">
+          <h5 i18n class="card-details" routerLink="/actors/{{actor.id}}">More Details <em class="bi bi-arrow-right-circle-fill"></em></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <hr/>
+  <br/>
+
+  <div class="container"> 
+    <div class="row">
+      
+
+        <div class="card p-2 px-4-sm col-sm-12 col-md-6" *ngFor="let reviews of movieDetail.reviews">
+          <div class="card-body movies-detail">
+            <h4 i18n class="px-md-0 px-sm-0">Review</h4>
+            <p class="movie-review-text">{{ reviews.text }}</p>
+          </div>
+        </div>
+
+
+      
+    </div> 
+  </div>
+  <br/>
+  <hr/>
+  <br/>
+
+
+  
+  
+
+
+</div>
+</div>
+    

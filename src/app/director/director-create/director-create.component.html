@@ -1,0 +1,185 @@
+<div class="container-fluid px-4 px-lg-5 h-100 pt-2 pb-2 outter-container">
+  <nav aria-label="breadcrumb" class="breadcrumb-detalle">
+    <ol class="breadcrumb">
+      <li i18n class="breadcrumb-item"><a routerLink="">Home</a></li>
+      <li i18n class="breadcrumb-item"><a routerLink="/directors/list">Directors</a></li>
+      <li i18n class="breadcrumb-item active" aria-current="create">Create</li>
+    </ol>
+  </nav>
+  <div class="col-12">
+    <h2 i18n class="font-weight-bold text-center title">Create a new director</h2>
+  </div>
+  <form
+    [formGroup]="directorForm"
+    (ngSubmit)="!directorForm.invalid && createDirector(directorForm.value)"
+  >
+    <!--Name-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="name" class="form-title">Name</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="name"
+        class="form-control custom-input"
+        formControlName="name"
+        placeholder="Enter Name"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          directorForm.get('name')!.hasError('required') &&
+          directorForm.get('name')!.touched
+        "
+      >
+        Name required
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="directorForm.get('name')!.hasError('minlength')"
+      >
+        Name too short
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="directorForm.get('name')!.hasError('maxlength')"
+      >
+        Name too long
+      </div>
+    </div>
+ 
+    <!--Photo-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="image" class="form-title">Photo</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="photo"
+        class="form-control custom-input"
+        formControlName="photo"
+        placeholder="URL with image"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          directorForm.get('photo')!.hasError('required') &&
+          directorForm.get('photo')!.touched
+        "
+      >
+        Image required
+      </div>
+    </div>
+
+    <!--Nationality-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="nationality" class="form-title">Nationality</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="nationality"
+        class="form-control custom-input"
+        formControlName="nationality"
+        placeholder="Enter Nationality"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          directorForm.get('nationality')!.hasError('required') &&
+          directorForm.get('nationality')!.touched
+        "
+      >
+        Nationality required
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="directorForm.get('nationality')!.hasError('minlength')"
+      >
+        Nationality too short
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="directorForm.get('nationality')!.hasError('maxlength')"
+      >
+        Nationality too long
+      </div>
+    </div>
+ 
+    <!--Birth Date-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="birthDate" class="form-title">Birth date</label>
+      <input
+        i18n-placeholder
+        type="date" 
+        id="birthDate"
+        novalidate
+        class="form-control custom-input"
+        formControlName="birthDate"
+        placeholder="Enter Birth date"
+        [max]="getMaxDate()"
+        />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          directorForm.get('birthDate')!.hasError('required') &&
+          directorForm.get('birthDate')!.touched
+        "
+      >
+        Birth date required
+      </div>
+    </div>
+ 
+    <!--Biography-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="biography" class="form-title">Biography</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="biography"
+        class="form-control custom-input"
+        formControlName="biography"
+        placeholder="Enter Biography"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          directorForm.get('biography')!.hasError('required') &&
+          directorForm.get('biography')!.touched
+        "
+      >
+         Biography required
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="directorForm.get('biography')!.hasError('maxlength')"
+      >
+        Biography too long
+      </div>
+    </div>
+ 
+    <button
+      i18n
+      type="submit"
+      class="custom-button-ok"
+      [disabled]="!directorForm.valid"
+    >
+      Create
+    </button>
+    <button
+      i18n
+      type="button"
+      class="custom-button-danger ml-3"
+      (click)="cancelCreation()"
+    >
+      Cancel
+    </button>
+  </form>
+ </div>

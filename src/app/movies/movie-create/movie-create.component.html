@@ -1,0 +1,229 @@
+<div class="container-fluid px-4 px-lg-5 h-100 pt-2 pb-2 outter-container">
+
+  <nav aria-label="breadcrumb" class="breadcrumb-detalle">
+    <ol class="breadcrumb">
+      <li i18n class="breadcrumb-item"><a routerLink="">Home</a></li>
+      <li i18n class="breadcrumb-item"><a routerLink="/movies/list">Movies</a></li>
+      <li i18n class="breadcrumb-item active" aria-current="create">Create</li>
+    </ol>
+  </nav>
+  <div class="col-12">
+    <h2 i18n class="font-weight-bold text-center title">Create a new movie</h2>
+  </div>
+  <form
+    [formGroup]="movieForm"
+    (ngSubmit)="!movieForm.invalid && createMovie(youtubeTrailerForm.value,movieForm.value)"
+  >
+    <!--Title-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n  for="title" class="form-title">Title</label>
+      <input
+      i18n-placeholder
+        novalidate
+        id="title"
+        class="form-control custom-input"
+        formControlName="title"
+        placeholder="movie title"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          movieForm.get('title')!.hasError('required') &&
+          movieForm.get('title')!.touched
+        "
+      >
+        Title required
+      </div>
+      <div i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="movieForm.get('title')!.hasError('minlength')"
+      >
+        Title too short
+      </div>
+    </div>
+    <div
+      i18n
+      class="alert alert-danger alert-dismissible fade show"
+      *ngIf="movieForm.get('title')!.hasError('maxlength')"
+    >
+      Title too long
+    </div>
+ 
+    <!--Poster-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="poster">Poster</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="poster"
+        class="form-control custom-input"
+        formControlName="poster"
+        placeholder="URL with movie poster"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          movieForm.get('poster')!.hasError('required') &&
+          movieForm.get('poster')!.touched
+        "
+      >
+        Poster required
+      </div>
+    </div>
+ 
+    <!--Duration-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="duration">Duration</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="duration"
+        type="number"
+        class="form-control custom-input"
+        formControlName="duration"
+        placeholder="movie duration"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          movieForm.get('duration')!.hasError('required') &&
+          movieForm.get('duration')!.touched
+        "
+      >
+        Duration required
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          movieForm.get('duration')!.hasError('pattern') &&
+          movieForm.get('duration')!.touched
+        "
+      >
+       Duration must be a positive integer
+      </div>
+    </div> 
+    
+    <!--Country-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="country">Country</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="country"
+        class="form-control custom-input"
+        formControlName="country"
+        placeholder="movie country"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          movieForm.get('country')!.hasError('required') &&
+          movieForm.get('country')!.touched
+        "
+      >
+        Country required
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="movieForm.get('country')!.hasError('minlength')"
+      >
+        Country too short
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="movieForm.get('country')!.hasError('maxlength')"
+      >
+        Country too long
+      </div>
+    </div>
+ 
+    <!--ReleaseDate-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="releaseDate">Release Date</label>
+      <input
+        i18n-placeholder
+        type="date" 
+        id="releaseDate"
+        novalidate
+        class="form-control custom-input"
+        formControlName="releaseDate"
+        placeholder="movie releaseDate"
+        [max]="getMaxDate()"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          movieForm.get('releaseDate')!.hasError('required') &&
+          movieForm.get('releaseDate')!.touched
+        "
+      >
+        Release Date required
+      </div>
+    </div>
+ 
+    <!--Popularity-->
+    <div class="form-group mx-sm-3 mb-2">
+      <label i18n for="popularity">Popularity</label>
+      <input
+        i18n-placeholder
+        novalidate
+        id="popularity"
+        type="number"
+        class="form-control"
+        formControlName="popularity"
+        placeholder="movie popularity of 1 - 5"
+      />
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          movieForm.get('popularity')!.hasError('required') &&
+          movieForm.get('popularity')!.touched
+        "
+      >
+        Popularity required
+      </div>
+      <div
+        i18n
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          movieForm.get('popularity')!.hasError('pattern') &&
+          movieForm.get('popularity')!.touched
+        "
+      >
+        Popularity must be a positive integer
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <button
+      i18n
+      type="submit"
+      class="custom-button-ok"
+      [disabled]="!movieForm.valid"
+    >
+      Create
+    </button>
+    <button
+      i18n
+      type="button"
+      class="btn btn-danger ml-3"
+      (click)="cancelCreation()"
+    >
+      Cancel
+    </button>
+  </form>
+ </div>
